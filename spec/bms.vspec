@@ -1,0 +1,18 @@
+# VSS-style signal catalog for the Battery Management Service (dummy)
+Vehicle.Powertrain.TractionBattery.Temperature.Max:
+  datatype: float
+  type: sensor
+  unit: celsius
+  description: Highest cell temperature in the pack.
+
+Vehicle.Powertrain.TractionBattery.StateOfCharge.Current:
+  datatype: float
+  type: sensor
+  unit: percent
+  description: Current state of charge.
+
+Vehicle.Powertrain.TractionBattery.Charging.MaxPower:
+  datatype: float
+  type: actuator
+  unit: kW
+  description: Maximum allowed charging power, set by thermal derating.
